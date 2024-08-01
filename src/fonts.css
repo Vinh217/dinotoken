@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'font1';
+    src: url('/fonts/4a2cde0b97af0c7d-s.p.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('/fonts/8cfc7610a67d3e5b-s.p.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
