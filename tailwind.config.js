@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'banner': 'url("/assets/bannertop.svg")',
+        'bgdino3': 'url("/assets/bgdino3.png")',
+      },
+      backgroundSize: {
+        '100%': '100% 100%'
+      },
       screens: {
         'sm': '640px',
         'md': '768px',
@@ -14,7 +21,7 @@ export default {
         '2xl': '1536px'
       },
       colors: {
-        'bg-base': '#000000',
+        'bg-base': '#57BB7A',
         'text-white': '#ffffff'
       },
       boxShadow: {
@@ -22,6 +29,9 @@ export default {
       },
       fontFamily: {
         yourFont: ['font1', 'font2'],
+      },
+      cursor: {
+        'custom': 'url("/assets/dino_cursor.png), auto',
       }
     },
   },
