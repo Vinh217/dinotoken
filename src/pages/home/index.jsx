@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import CountdownTimer from './components/CountdownTimer';
-import SliderFooter from './components/sliderfooter';
-import Sliders from './components/sliders';
+import CountdownTimer from '../../components/CountdownTimer';
+import Sliders from '../../components/Sliders';
+import SliderFooter from '../../components/Sliderfooter';
 
 export default function Home() {
     const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="text-[24px] font-[900] text-bg-base">
-                    CONTRACT ADDRESS:{' '}
+                    {/* CONTRACT ADDRESS */}
                 </div>
             </div>
 

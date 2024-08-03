@@ -138,7 +138,7 @@ export default function Layout({ children }) {
                             className="cursor-pointer"
                             onClick={() => setIsOpen(false)}
                         >
-                            CONTRACT ADDRESS:
+                            {/* CONTRACT ADDRESS: */}
                         </a>
                     </div>
 
