@@ -57,8 +57,8 @@ function SliderFooter() {
             >
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/1.webp" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/1.png" alt="1" className='h-[240px] border rounded-[14px]'/>
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
                                 DINO <span className='text-[36px] font-[900] text-bg-base'>TOURS</span>
                             </div>
@@ -70,8 +70,8 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/2.webp" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/2.png" alt="1" className='h-[240px] border rounded-[14px]'/>
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
                                 DINO <span className='text-[36px] font-[900] text-bg-base'>MUSEUMS</span>
                             </div>
@@ -83,8 +83,8 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/3.webp" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/3.png" alt="1" className='h-[240px] border rounded-[14px]'/>
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
                                 YOUR OWN PRIVATE <span className='text-[36px] font-[900] text-bg-base'>VACHT</span>
                             </div>

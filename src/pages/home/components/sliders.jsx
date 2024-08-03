@@ -57,8 +57,8 @@ function Sliders() {
             >
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/sl1.png" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/sl1.png" alt="1" className='h-[240px] border rounded-[14px]'/>
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
                                 BUILD <span className='text-[36px] font-bold text-bg-base'>A DINO COMMUNITY</span>
                             </div>
@@ -70,8 +70,8 @@ function Sliders() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/sl2.png" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/sl2.png" alt="1" className='h-[240px] border rounded-[14px]'/>
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
                                 LEARN WITH <span className='text-[36px] font-bold text-bg-base'>FUN</span>
                             </div>
@@ -83,8 +83,8 @@ function Sliders() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/sl3.png" alt="1" />
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                        <img src="/assets/sl3.png" alt="1" className='h-[240px] border rounded-[14px]' />
+                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
                             <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
                                 CREATE <span className='text-[36px] font-bold text-bg-base'>DINO-MITE CONTENT</span>
                             </div>

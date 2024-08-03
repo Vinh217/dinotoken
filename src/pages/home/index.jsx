@@ -154,10 +154,10 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex w-full flex-col items-center justify-center gap-[16px] py-[30px] md:flex-row">
-                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px]">
+                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px] min-h-[1110px]">
                         <div className="flex flex-col items-center justify-center gap-[16px]">
                             <div className="flex">
-                                <img src="/assets/ice.svg" alt="" />
+                                <img src="/assets/ice.png" alt="" />
                             </div>
                             <div className="text-center text-[40px] font-[900] uppercase text-[#2A4C75]">
                                 Freezing (Staking)
@@ -263,10 +263,10 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px]">
+                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px] min-h-[1110px]">
                         <div className="flex flex-col items-center justify-center gap-[16px]">
                             <div className="flex">
-                                <img src="/assets/ice2.svg" alt="" />
+                                <img src="/assets/ice2.png" alt="" />
                             </div>
                             <div className="text-center text-[40px] font-[900] uppercase text-[#2A4C75]">
                                 Vaporizing (Burning)
@@ -429,6 +429,7 @@ export default function Home() {
                 </div>
                 <SliderFooter />
             </div>
+            <img src="/assets/imgfooter.png" alt="" className='w-full mt-[50px]'/>
         </div>
     );
 }
