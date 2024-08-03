@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <>
             <div className="fixed left-0 top-[43px] z-10 flex h-[50px] w-full flex-col items-center">
                 <div className="ml-auto mr-auto w-full max-w-[1674px] px-[14px]">
-                    <div className="headerrr">
+                    <div className="headerrr py-[13px] md:py-[22px] pl-[38px] pr-[22px]">
                         <div className="flex items-center gap-[200px]">
                             <a
                                 className="cursor-pointer text-[30px] font-[900] text-bg-base"
