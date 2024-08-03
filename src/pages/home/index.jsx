@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <div className="relative">
                 <img
-                    src="/assets/bannertop.svg"
+                    src="/assets/bannertop.png"
                     alt="banner"
                     className="w-full"
                 />
