@@ -41,12 +41,6 @@ export default function Layout({ children }) {
                                 <a href="#faq" className="cursor-pointer">
                                     FAQ
                                 </a>
-                                <a href="#footer" className="cursor-pointer">
-                                    Social/Footer
-                                </a>
-                                <a href="#legal" className="cursor-pointer">
-                                    Legal/Disclaimer
-                                </a>
                             </div>
                         </div>
                         <div className="hidden cursor-pointer items-center justify-center rounded-[14px] border-2 border-[#000000] bg-bg-base px-[20px] py-[5px] md:flex">
@@ -119,27 +113,13 @@ export default function Layout({ children }) {
                         >
                             FAQ
                         </a>
-                        <a
+                        {/* <a
                             href="#faq"
                             className="cursor-pointer"
                             onClick={() => setIsOpen(false)}
                         >
-                            Social/Footer
-                        </a>
-                        <a
-                            href="#faq"
-                            className="cursor-pointer"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            Legal/Disclaimer
-                        </a>
-                        <a
-                            href="#faq"
-                            className="cursor-pointer"
-                            onClick={() => setIsOpen(false)}
-                        >
-                            {/* CONTRACT ADDRESS: */}
-                        </a>
+                            CONTRACT ADDRESS:
+                        </a> */}
                     </div>
 
                     <div className="flex cursor-pointer items-center justify-center rounded-[14px] border-2 border-[#000000] bg-bg-base px-[20px] py-[5px] md:hidden">

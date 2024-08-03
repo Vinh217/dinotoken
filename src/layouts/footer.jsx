@@ -88,6 +88,9 @@ export default function Footer() {
                 journey through the Mesozoic era and beyond with Project Dino!
                 Get Dino tokens now!
             </div>
+            <div className="text-[10px] md:text-[14px]">
+                RISK WARNING: Any activity with Crypto assets entails risks and could result in a complete or partial loss of your Crypto assets and / or fiat funds and you should not expect to be protected if something goes wrong. Only you are responsible for your decisions and actions performed on Crypto assets wallets and platforms.
+            </div>
         </div>
     );
 }
