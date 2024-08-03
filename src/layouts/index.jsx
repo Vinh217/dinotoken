@@ -58,14 +58,19 @@ export default function Layout({ children }) {
             <div
                 className={`menu ${isOpen ? 'open' : ''} z-20 flex bg-bgdino3 bg-100% bg-center bg-no-repeat py-[20px] pl-[16px] md:hidden`}
             >
-                <div className="flex flex-col items-start gap-[20px] pl-[16px]">
-                    <a
-                        className="cursor-pointer text-[30px] font-[900] text-bg-base"
-                        href=""
-                        onClick={() => setIsOpen(false)}
-                    >
-                        $DINO
-                    </a>
+                <div className="flex flex-col items-start gap-[20px] px-[10px] w-full">
+                    <div className='flex justify-between w-full'>
+                        <a
+                            className="cursor-pointer text-[30px] font-[900] text-bg-base"
+                            href=""
+                            onClick={() => setIsOpen(false)}
+                        >
+                            $DINO
+                        </a>
+                        <div>
+                            <img src="/assets/menu-close.svg" className='cursor-pointer' alt="" onClick={() => setIsOpen(false)}/>
+                        </div>
+                    </div>
                     <div className="flex cursor-pointer flex-col gap-[20px] text-[30px] font-bold uppercase text-bg-base md:hidden">
                         <a
                             href="#feature"
