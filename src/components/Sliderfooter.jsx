@@ -63,9 +63,9 @@ function SliderFooter() {
                             className="h-[240px] md:h-[300px] rounded-[14px] border"
                         />
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
                                 DINO{' '}
-                                <span className="text-[36px] font-[900] text-bg-base">
+                                <span className="text-[32px] font-[900] text-bg-base">
                                     TOURS
                                 </span>
                             </div>
@@ -86,9 +86,9 @@ function SliderFooter() {
                             className="h-[240px] md:h-[300px] rounded-[14px] border"
                         />
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
                                 DINO{' '}
-                                <span className="text-[36px] font-[900] text-bg-base">
+                                <span className="text-[32px] font-[900] text-bg-base">
                                     MUSEUMS
                                 </span>
                             </div>
@@ -109,9 +109,9 @@ function SliderFooter() {
                             className="h-[240px] md:h-[300px] rounded-[14px] border"
                         />
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
                                 DINO{' '}
-                                <span className="text-[36px] font-[900] uppercase text-bg-base">
+                                <span className="text-[32px] font-[900] uppercase text-bg-base">
                                     Stickers
                                 </span>
                             </div>
@@ -132,9 +132,9 @@ function SliderFooter() {
                             className="h-[240px] md:h-[300px] rounded-[14px] border"
                         />
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
                                 DINO{' '}
-                                <span className="text-[36px] font-[900] text-bg-base">
+                                <span className="text-[32px] font-[900] text-bg-base">
                                     MERCH
                                 </span>
                             </div>
@@ -155,9 +155,9 @@ function SliderFooter() {
                             className=" h-[240px] md:h-[300px] rounded-[14px] border"
                         />
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
                                 DINO{' '}
-                                <span className="text-[36px] font-[900] text-bg-base">
+                                <span className="text-[32px] font-[900] text-bg-base">
                                     BOOKS
                                 </span>
                             </div>

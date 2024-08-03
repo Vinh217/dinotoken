@@ -59,8 +59,8 @@ function Sliders() {
                     <div className="flex flex-col gap-[5px]">
                         <img src="/assets/sl1.png" alt="1" className='h-[240px] md:h-[300px] border rounded-[14px]'/>
                         <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
-                                BUILD <span className='text-[36px] font-bold text-bg-base'>A DINO COMMUNITY</span>
+                            <div className='text-[32px] font-[900] text-[#2A4C75] flex items-start md:items-center gap-[5px] md:flex-row flex-col'>
+                                BUILD <span className='text-[32px] font-[900] text-bg-base'>A DINO COMMUNITY</span>
                             </div>
                             <div className='text-[18px]'>
                                 Foster a community of dinosaur enthusiasts and meme lovers who can engage, share, and contribute to our growing library of dino-memes
@@ -72,8 +72,8 @@ function Sliders() {
                     <div className="flex flex-col gap-[5px]">
                         <img src="/assets/sl2.png" alt="1" className='h-[240px] md:h-[300px] border rounded-[14px]'/>
                         <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
-                                LEARN WITH <span className='text-[36px] font-bold text-bg-base'>FUN</span>
+                            <div className='text-[32px] font-[900] text-[#2A4C75] flex items-start md:items-center gap-[5px] md:flex-row flex-col'>
+                                LEARN WITH <span className='text-[32px] font-[900] text-bg-base'>FUN</span>
                             </div>
                             <div className='text-[18px]'>
                             Use meme as a platform to share fun and interestin facts about dinosaurs, blending education with entertainment.
@@ -85,8 +85,8 @@ function Sliders() {
                     <div className="flex flex-col gap-[5px]">
                         <img src="/assets/sl3.png" alt="1" className='h-[240px] md:h-[300px] border rounded-[14px]' />
                         <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-bold text-[#2A4C75] flex items-center gap-[5px]'>
-                                CREATE <span className='text-[36px] font-bold text-bg-base'>DINO-MITE CONTENT</span>
+                            <div className='text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]'>
+                                CREATE <span className='text-[32px] font-[900] text-bg-base'>DINO-MITE CONTENT</span>
                             </div>
                             <div className='text-[18px]'>
                             Develop a collection of engaging and shareable memes featuring various dinosaur species in humorous scenarios.
