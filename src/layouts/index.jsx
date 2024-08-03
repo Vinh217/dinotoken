@@ -15,13 +15,16 @@ export default function Layout({ children }) {
             <div className="fixed left-0 top-[43px] z-10 flex h-[50px] w-full flex-col items-center">
                 <div className="ml-auto mr-auto w-full max-w-[1674px] px-[14px]">
                     <div className="headerrr py-[13px] md:py-[22px] pl-[38px] pr-[22px]">
-                        <div className="flex items-center gap-[200px]">
+                        <div className="flex items-center gap-[100px]">
                             <a
                                 className="cursor-pointer text-[30px] font-[900] text-bg-base"
                                 href=""
                             >
                                 $DINO
                             </a>
+                            <div>
+                                
+                            </div>
                             <div className="hidden cursor-pointer flex-row gap-[20px] text-[30px] font-bold uppercase text-bg-base md:flex">
                                 <a href="#feature" className="cursor-pointer">
                                     Features
@@ -29,11 +32,20 @@ export default function Layout({ children }) {
                                 <a href="#utility" className="cursor-pointer">
                                     UTILITY
                                 </a>
+                                <a href="#tokenomics" className="cursor-pointer">
+                                    TOKENOMICS
+                                </a>
                                 <a href="#roadmap" className="cursor-pointer">
                                     ROADMAP
                                 </a>
                                 <a href="#faq" className="cursor-pointer">
                                     FAQ
+                                </a>
+                                <a href="#footer" className="cursor-pointer">
+                                    Social/Footer
+                                </a>
+                                <a href="#legal" className="cursor-pointer">
+                                    Legal/Disclaimer
                                 </a>
                             </div>
                         </div>
@@ -87,6 +99,13 @@ export default function Layout({ children }) {
                             UTILITY
                         </a>
                         <a
+                            href="#utility"
+                            className="cursor-pointer"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            TOKENNOMICS
+                        </a>
+                        <a
                             href="#roadmap"
                             className="cursor-pointer"
                             onClick={() => setIsOpen(false)}
@@ -99,6 +118,27 @@ export default function Layout({ children }) {
                             onClick={() => setIsOpen(false)}
                         >
                             FAQ
+                        </a>
+                        <a
+                            href="#faq"
+                            className="cursor-pointer"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Social/Footer
+                        </a>
+                        <a
+                            href="#faq"
+                            className="cursor-pointer"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            Legal/Disclaimer
+                        </a>
+                        <a
+                            href="#faq"
+                            className="cursor-pointer"
+                            onClick={() => setIsOpen(false)}
+                        >
+                            CONTRACT ADDRESS:
                         </a>
                     </div>
 

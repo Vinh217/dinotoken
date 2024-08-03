@@ -1,5 +1,5 @@
 export default function Footer() {
-    return <div className="footer_bg_color w-full text-text-white px-[16px] md:px-[130px] py-[20px]">
+    return <div className="footer_bg_color w-full text-text-white px-[16px] md:px-[130px] py-[20px]" id="footer">
         <div className="flex border-b border-[#1D2E27] gap-[16px]">
             <div className="border-r border-[#1D2E27] flex-1 py-[20px]">
                 <div className="flex flex-col gap-[16px]">

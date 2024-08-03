@@ -1,7 +1,13 @@
+import { useState } from 'react';
+import CountdownTimer from './components/CountdownTimer';
 import SliderFooter from './components/sliderfooter';
 import Sliders from './components/sliders';
 
 export default function Home() {
+    const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
+    const NOW_IN_MS = new Date().getTime();
+    const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
+    const [textToCopy] = useState("TBA");
     return (
         <div>
             <div className="relative">
@@ -14,6 +20,25 @@ export default function Home() {
                 ">
                     PRESALE $DINO
                 </div>
+            </div>
+
+            <div className='py-[20px] bg-[#2A4C75] flex flex-col justify-center items-center gap-[10px]'>
+                <div className='text-text-white text-[30px] font-[900]'>PRESALE DETAILS</div>
+                <CountdownTimer targetDate={dateTimeAfterSevenDays} />
+                <div className='border bg-white rounded-full w-[400px] px-[16px] py-[10px] flex justify-between items-center mt-[10px]'>
+                    <div className='text-bg-base text-[18px] font-bold'>{textToCopy}</div>
+                    <div className='rounded-full py-[5px] px-[20px] bg-[#2A4C75] text-center text-[16px] text-text-white font-bold cursor-pointer' onClick={() => {navigator.clipboard.writeText(textToCopy)}}>
+                        COPY
+                    </div>
+                </div>
+                <div className='text-[24px] font-[900] text-bg-base'>MIN: TBA</div>
+                <div className='text-[24px] font-[900] text-bg-base'>MAX: TBA</div>
+                <div className="hidden cursor-pointer items-center justify-center rounded-[14px] border-2 border-[#000000] bg-bg-base px-[20px] py-[5px] md:flex">
+                    <div className="cursor-pointer text-[24px] font-bold text-text-white">
+                       BUY $DINO NOW
+                    </div>
+                </div>
+                <div className='text-[24px] font-[900] text-bg-base'>CONTRACT ADDRESS: </div>
             </div>
 
             <div className="px-[16px]" id='feature'>
@@ -51,7 +76,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex max-w-[778px] flex-col items-center gap-[20px] md:flex-row md:flex-wrap">
+                    <div className="grid-cols-1 md:grid-cols-2 grid gap-[16px] justify-items-center">
                         <div className="min-h-[230px] max-w-[370px] rounded-[14px] border-[3px] border-[#57bb7a] p-[16px]">
                             <div>
                                 <img src="/assets/benefit-1.svg" alt="" />
