@@ -57,47 +57,133 @@ function SliderFooter() {
             >
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/1.png" alt="1" className='h-[300px] border rounded-[14px]'/>
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
-                                DINO <span className='text-[36px] font-[900] text-bg-base'>TOURS</span>
+                        <img
+                            src="/assets/1.png"
+                            alt="1"
+                            className="h-[240px] md:h-[300px] rounded-[14px] border"
+                        />
+                        <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                                DINO{' '}
+                                <span className="text-[36px] font-[900] text-bg-base">
+                                    TOURS
+                                </span>
                             </div>
-                            <div className='text-[18px]'>
-                            Escape to paradise with a luxury trip to the Maldives. Stay in the best hotels, enjoy crystal-clear waters, pristine beaches, and indulge in world-class spa treatments.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/2.png" alt="1" className='h-[300px] border rounded-[14px]'/>
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
-                                DINO <span className='text-[36px] font-[900] text-bg-base'>MUSEUMS</span>
-                            </div>
-                            <div className='text-[18px]'>
-                            Escape to paradise with a luxury trip to the Maldives. Stay in the best hotels, enjoy crystal-clear waters, pristine beaches, and indulge in world-class spa treatments.
+                            <div className="text-[18px]">
+                                Escape to paradise with a luxury trip to the
+                                Maldives. Stay in the best hotels, enjoy
+                                crystal-clear waters, pristine beaches, and
+                                indulge in world-class spa treatments.
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img src="/assets/3.png" alt="1" className='h-[300px] border rounded-[14px]'/>
-                        <div className="rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px] min-h-[250px]">
-                            <div className='text-[36px] font-[900] text-[#2A4C75] flex items-center gap-[5px]'>
-                                YOUR OWN PRIVATE <span className='text-[36px] font-[900] text-bg-base'>VACHT</span>
+                        <img
+                            src="/assets/2.png"
+                            alt="1"
+                            className="h-[240px] md:h-[300px] rounded-[14px] border"
+                        />
+                        <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                                DINO{' '}
+                                <span className="text-[36px] font-[900] text-bg-base">
+                                    MUSEUMS
+                                </span>
                             </div>
-                            <div className='text-[18px]'>
-                            Escape to paradise with a luxury trip to the Maldives. Stay in the best hotels, enjoy crystal-clear waters, pristine beaches, and indulge in world-class spa treatments.
+                            <div className="text-[18px]">
+                                Explore renowned dinosaur museums, where you can
+                                see fossil collections, exhibitions, and engage
+                                in educational activities about the ancient
+                                world of dinosaurs.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="flex flex-col gap-[5px]">
+                        <img
+                            src="/assets/3.png"
+                            alt="1"
+                            className="h-[240px] md:h-[300px] rounded-[14px] border"
+                        />
+                        <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                                DINO{' '}
+                                <span className="text-[36px] font-[900] uppercase text-bg-base">
+                                    Stickers
+                                </span>
+                            </div>
+                            <div className="text-[18px]">
+                                Collect and trade unique dinosaur sticker
+                                collections, featuring images of various
+                                dinosaur species and scenes depicting their
+                                lives.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="flex flex-col gap-[5px]">
+                        <img
+                            src="/assets/4.png"
+                            alt="1"
+                            className="h-[240px] md:h-[300px] rounded-[14px] border"
+                        />
+                        <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                                DINO{' '}
+                                <span className="text-[36px] font-[900] text-bg-base">
+                                    MERCH
+                                </span>
+                            </div>
+                            <div className="text-[18px]">
+                                Shop for dinosaur-related products and
+                                accessories like T-shirts, hats, backpacks, and
+                                toys to show off your passion for these
+                                mysterious creatures.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div className="flex flex-col gap-[5px]">
+                        <img
+                            src="/assets/5.png"
+                            alt="1"
+                            className=" h-[240px] md:h-[300px] rounded-[14px] border"
+                        />
+                        <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
+                            <div className="flex items-center gap-[5px] text-[36px] font-[900] text-[#2A4C75]">
+                                DINO{' '}
+                                <span className="text-[36px] font-[900] text-bg-base">
+                                    BOOKS
+                                </span>
+                            </div>
+                            <div className="text-[18px]">
+                                Immerse yourself in the world of dinosaurs
+                                through a variety of books, from illustrated
+                                books and comics to detailed scientific studies,
+                                suitable for all ages.
                             </div>
                         </div>
                     </div>
                 </div>
             </Slider>
-            <div className='pt-[40px] flex w-full justify-center gap-[150px]'>
-                <img src="/assets/arrow-left.webp" onClick={previous} alt="" className='cursor-pointer w-[67px]'/>
-                <img src="/assets/arrow-right.webp" onClick={next} alt="" className='cursor-pointer w-[67px]'/>
+            <div className="flex w-full justify-center gap-[150px] pt-[40px]">
+                <img
+                    src="/assets/arrow-left.webp"
+                    onClick={previous}
+                    alt=""
+                    className="w-[67px] cursor-pointer"
+                />
+                <img
+                    src="/assets/arrow-right.webp"
+                    onClick={next}
+                    alt=""
+                    className="w-[67px] cursor-pointer"
+                />
             </div>
         </div>
     );

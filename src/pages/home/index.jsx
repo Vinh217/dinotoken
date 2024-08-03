@@ -7,7 +7,7 @@ export default function Home() {
     const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
     const NOW_IN_MS = new Date().getTime();
     const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
-    const [textToCopy] = useState("TBA");
+    const [textToCopy] = useState('TBA');
     return (
         <div>
             <div className="relative">
@@ -16,33 +16,47 @@ export default function Home() {
                     alt="banner"
                     className="w-full"
                 />
-                <div className="triangle-left relative w-[350px] h-[50px] bg-bg-base before:absolute before:top-[20px] before:border-b-[15px] before:border-r-[15px] before:border-t-[15px] before:border-b-transparent before:border-r-[#42ad68] before:border-t-transparent before:left-[9px] before:rotate-[135deg] text-[24px] font-[900] text-center text-[#2A4C75] flex items-center justify-center
-                ">
+                <div className="triangle-left relative flex h-[50px] w-[350px] items-center justify-center bg-bg-base text-center text-[24px] font-[900] text-[#2A4C75] before:absolute before:left-[9px] before:top-[20px] before:rotate-[135deg] before:border-b-[15px] before:border-r-[15px] before:border-t-[15px] before:border-b-transparent before:border-r-[#42ad68] before:border-t-transparent">
                     PRESALE $DINO
                 </div>
             </div>
 
-            <div className='py-[20px] bg-[#2A4C75] flex flex-col justify-center items-center gap-[10px]'>
-                <div className='text-text-white text-[30px] font-[900]'>PRESALE DETAILS</div>
+            <div className="flex flex-col items-center justify-center gap-[10px] bg-[#2A4C75] py-[20px]">
+                <div className="text-[30px] font-[900] text-text-white">
+                    PRESALE DETAILS
+                </div>
                 <CountdownTimer targetDate={dateTimeAfterSevenDays} />
-                <div className='border bg-white rounded-full w-[400px] px-[16px] py-[10px] flex justify-between items-center mt-[10px]'>
-                    <div className='text-bg-base text-[18px] font-bold'>{textToCopy}</div>
-                    <div className='rounded-full py-[5px] px-[20px] bg-[#2A4C75] text-center text-[16px] text-text-white font-bold cursor-pointer' onClick={() => {navigator.clipboard.writeText(textToCopy)}}>
+                <div className="mt-[10px] flex w-[400px] items-center justify-between rounded-full border bg-white px-[16px] py-[10px]">
+                    <div className="text-[18px] font-bold text-bg-base">
+                        {textToCopy}
+                    </div>
+                    <div
+                        className="cursor-pointer rounded-full bg-[#2A4C75] px-[20px] py-[5px] text-center text-[16px] font-bold text-text-white"
+                        onClick={() => {
+                            navigator.clipboard.writeText(textToCopy);
+                        }}
+                    >
                         COPY
                     </div>
                 </div>
-                <div className='text-[24px] font-[900] text-bg-base'>MIN: TBA</div>
-                <div className='text-[24px] font-[900] text-bg-base'>MAX: TBA</div>
+                <div className="text-[24px] font-[900] text-bg-base">
+                    MIN: TBA
+                </div>
+                <div className="text-[24px] font-[900] text-bg-base">
+                    MAX: TBA
+                </div>
                 <div className="hidden cursor-pointer items-center justify-center rounded-[14px] border-2 border-[#000000] bg-bg-base px-[20px] py-[5px] md:flex">
                     <div className="cursor-pointer text-[24px] font-bold text-text-white">
-                       BUY $DINO NOW
+                        BUY $DINO NOW
                     </div>
                 </div>
-                <div className='text-[24px] font-[900] text-bg-base'>CONTRACT ADDRESS: </div>
+                <div className="text-[24px] font-[900] text-bg-base">
+                    CONTRACT ADDRESS:{' '}
+                </div>
             </div>
 
-            <div className="px-[16px]" id='feature'>
-                <img
+            <div className="px-[16px] md:px-[130px]" id="feature">
+                {/* <img
                     src="/assets/section1.png"
                     alt=""
                     className="hidden w-full md:block"
@@ -51,7 +65,64 @@ export default function Home() {
                     src="/assets/section1_ip.svg"
                     alt=""
                     className="block w-full md:hidden"
-                />
+                /> */}
+                <div className="flex flex-col items-center justify-center gap-[10px] py-[30px] md:flex-row">
+                    <div className="order-2 flex flex-col gap-[10px] md:order-1">
+                        <div className="text-small w-[300px] cursor-pointer rounded-full border-[2px] border-bg-base py-[10px] text-center font-bold text-bg-base">
+                            Create DINO
+                        </div>
+                        <div className="text-small w-[300px] cursor-pointer rounded-full border-[2px] border-bg-base py-[10px] text-center font-bold text-bg-base">
+                            Nurture DINO
+                        </div>
+                        <div className="text-small w-[300px] cursor-pointer rounded-full border-[2px] border-bg-base py-[10px] text-center font-bold text-bg-base">
+                            Grow DINO
+                        </div>
+                    </div>
+                    <div className="order-1 flex flex-col gap-[10px] md:order-2">
+                        <div className="flex items-center">
+                            <img src="/assets/left-title-icon.svg" alt="" />
+                            <div className="flex flex-col justify-center">
+                                <div className="text-pre-medium md:text-big font-super-bold text-[#2A4C75]">
+                                    KEY FEATURES:
+                                </div>
+                                <div className="text-pre-medium md:text-big font-super-bold text-center text-bg-base">
+                                    $DINO
+                                </div>
+                            </div>
+
+                            <img src="/assets/right-title-icon.svg" alt="" />
+                        </div>
+                        <div className="text-para text-center text-bg-base">
+                            Our goal is to bring DINO back to the world via Web3
+                            <div className="text-para text-bg-base">
+                                Tokenomics: 2024,2024,2024 DINO token
+                            </div>
+                            <div className="text-para text-bg-base">
+                                30% presale + bonus
+                            </div>
+                            <div className="text-para text-bg-base">
+                                20% Treasury & Marketing
+                            </div>
+                            <div className="text-para text-bg-base">
+                                20% Liquidity, cex, dex, MM
+                            </div>
+                            <div className="text-para text-bg-base">
+                                5% Early contributors
+                            </div>
+                            <div className="text-para text-bg-base">
+                                10% DINO Fund
+                            </div>
+                        </div>
+                    </div>
+                    <div className="order-3 flex flex-col gap-[10px] md:order-3">
+                        <div className="text-small w-[300px] cursor-pointer rounded-full border-[2px] border-bg-base py-[10px] text-center font-bold text-bg-base">
+                            DINO Launchpad
+                        </div>
+                        <div className="text-small w-[300px] cursor-pointer rounded-full border-[2px] border-bg-base py-[10px] text-center font-bold text-bg-base">
+                            DINO Game
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* section 1 */}
             <div className="px-[16px] py-[30px] md:px-[130px]">
@@ -69,14 +140,12 @@ export default function Home() {
                                 Charity FIRST
                             </div>
                             <div className="pt-[10px] text-[16px]">
-                                Global charity and research initiatives that
-                                will drive attention of millions of people.
-                                $DINO aims to have a net-positive impact on real
-                                world with the help of charity.
+                                By owning $DINO you are contributing to bringing
+                                dinosaurs back to the world through Web3.
                             </div>
                         </div>
                     </div>
-                    <div className="grid-cols-1 md:grid-cols-2 grid gap-[16px] justify-items-center">
+                    <div className="grid grid-cols-1 justify-items-center gap-[16px] md:grid-cols-2">
                         <div className="min-h-[230px] max-w-[370px] rounded-[14px] border-[3px] border-[#57bb7a] p-[16px]">
                             <div>
                                 <img src="/assets/benefit-1.svg" alt="" />
@@ -98,8 +167,8 @@ export default function Home() {
                                 Heavy Presale Limits:
                             </div>
                             <div className="text-[16px]">
-                                Limited to 200 Solana (SOL) per wallet. Each
-                                wallet can invest up to 200 SOL.
+                                Limited to 100 Solana (SOL) per wallet. Each
+                                wallet can invest up to 100 SOL.
                             </div>
                         </div>
                         <div className="min-h-[230px] max-w-[370px] rounded-[14px] border-[3px] border-[#57bb7a] p-[16px]">
@@ -107,12 +176,13 @@ export default function Home() {
                                 <img src="/assets/heavy_1.svg" alt="" />
                             </div>
                             <div className="text-[20px] font-[900] uppercase text-bg-base">
-                                Pre-agreed top listings:
+                                CEXs and MM
                             </div>
                             <div className="text-[16px]">
-                                We have several listings pre-agreed with top
-                                tier exchanges with amazing liquidity and
-                                features.
+                                Many top Dexs are ready to list and cooperate
+                                with airdrop campaigns. Dino's Market Maker has
+                                experience bringing many large projects up to 1B
+                                Market Cap
                             </div>
                         </div>
                         <div className="min-h-[230px] max-w-[370px] rounded-[14px] border-[3px] border-[#57bb7a] p-[16px]">
@@ -120,12 +190,12 @@ export default function Home() {
                                 <img src="/assets/heavy_2.svg" alt="" />
                             </div>
                             <div className="text-[20px] font-[900] uppercase text-bg-base">
-                                Vested partners & KOLs
+                                KOLs and Partners
                             </div>
                             <div className="text-[16px]">
-                                All of our top partners & KOLs are limited with
-                                publicly visible tokens vesting. This ensures a
-                                long-term involvement.
+                                Over 200+ Kols and partners join to support the
+                                project. All have limited tokens vesting,
+                                ensuring long-term support.
                             </div>
                         </div>
                     </div>
@@ -135,16 +205,17 @@ export default function Home() {
             {/* section 2 */}
             <div className="py-[30px]" id="utility">
                 <div className="mb-[40px] flex flex-col items-center justify-center px-[16px] md:px-[130px]">
-                    <div className="text-center text-[40px] font-[900] text-[#2A4C75] md:text-[64px]">
-                        BECOME A
-                        <span className="text-[40px] font-[900] text-bg-base md:text-[64px]">
+                    <div className="text-center text-[32px] font-[900] text-[#2A4C75] md:text-[64px] uppercase">
+                        Holder
+                        <span className="text-[32px] font-[900] text-bg-base md:text-[64px]">
                             $DINO
                         </span>
-                        HOLDER
-                        <br />– WIN HUGE PRIZES
+                        <br />get special reward
                     </div>
-                    <div className="text-[20px] font-bold text-bg-base">
-                        And so much more coming soon
+                    <div className="text-para font-bold text-bg-base w-full">
+                        <div className="text-para font-bold text-bg-base text-center">Limited NFTs: Win NFTs that are the only special dinosaurs in this world</div>
+                        <div className="text-para font-bold text-bg-base text-center">Airdrop: Receive airdrops from partner projects, DINO</div>
+                        <div className="text-para font-bold text-bg-base text-center">Access rights: Access to special Dino features like Launchpad, Games,...</div>
                     </div>
                 </div>
                 <Sliders />
@@ -166,20 +237,8 @@ export default function Home() {
 
             {/* section 4  */}
             <div className="px-[16px] py-[30px] md:px-[130px]">
-                <div className="flex flex-col items-center justify-center">
-                    <div className="text-center text-[64px] font-[900] text-bg-base">
-                        <span className="text-[64px] text-[#2A4C75]">
-                            SUPPLY DYNAMICS:
-                        </span>
-                        <br />
-                        IS AN IMPACT TOKEN
-                    </div>
-                    <div className="max-w-[600px] text-center text-[20px] text-[#2A4C75]">
-                        And so much more coming soon
-                    </div>
-                </div>
                 <div className="flex w-full flex-col items-center justify-center gap-[16px] py-[30px] md:flex-row">
-                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px] min-h-[1110px]">
+                    <div className="min-h-[1110px] max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px]">
                         <div className="flex flex-col items-center justify-center gap-[16px]">
                             <div className="flex">
                                 <img src="/assets/ice.png" alt="" />
@@ -288,7 +347,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px] min-h-[1110px]">
+                    <div className="min-h-[1110px] max-w-[670px] rounded-[14px] border border-[#40beff] p-[40px]">
                         <div className="flex flex-col items-center justify-center gap-[16px]">
                             <div className="flex">
                                 <img src="/assets/ice2.png" alt="" />
@@ -360,17 +419,17 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* section 5 */}
-            <div className="px-[16px] md:px-[130px]">
+            {/* section 5 tokenomics */}
+            <div className="px-[16px] md:px-[130px]" id="tokenomics">
                 <div className="item-center flex w-full flex-col justify-center bg-bgdino3 bg-100% bg-center bg-no-repeat py-[100px]">
                     <div className="flex flex-col items-center justify-center">
-                        <div className="max-w-[600px] text-center text-[64px] font-[900] text-[#2A4C75]">
-                            <span className="text-[64px] text-bg-base">
+                        <div className="max-w-[600px] text-center text-[32px] md:text-[64px] font-[900] text-[#2A4C75]">
+                            <span className="text-[32px] md:text-[64px] text-bg-base">
                                 $DINO
                             </span>
                             IS AN IMPACT TOKEN
                         </div>
-                        <div className="max-w-[600px] text-center text-[20px] text-[#2A4C75]">
+                        <div className="max-w-[600px] text-center text-[20px] text-bg-base">
                             $DINO is something essential for everyone, so we
                             created the first meme tokenomics focused on funding
                             global charity and research organisations to use the
@@ -443,10 +502,10 @@ export default function Home() {
             {/* section 6 */}
             <div className="py-[30px]" id="faq">
                 <div className="mb-[40px] flex flex-col items-center justify-center px-[16px] md:px-[130px]">
-                    <div className="text-center text-[64px] font-bold text-[#2A4C75]">
+                    <div className="text-center text-[32px] md:text-[64px] font-super-bold text-[#2A4C75]">
                         CAMPAIGNS & PROGRAMS
                     </div>
-                    <div className="text-[20px] font-bold text-bg-base">
+                    <div className="text-[16px] font-bold text-bg-base">
                         Participate in contents and games for a chance to win
                         amazing dinosaur-themed prizes as books, toys, and
                         museum tickets.
@@ -454,7 +513,11 @@ export default function Home() {
                 </div>
                 <SliderFooter />
             </div>
-            <img src="/assets/imgfooter.png" alt="" className='w-full mt-[50px]'/>
+            <img
+                src="/assets/imgfooter.png"
+                alt=""
+                className="mt-[50px] w-full"
+            />
         </div>
     );
 }

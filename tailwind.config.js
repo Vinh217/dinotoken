@@ -24,6 +24,16 @@ export default {
         'bg-base': '#57BB7A',
         'text-white': '#ffffff'
       },
+      fontSize: {
+        'big': '64px',
+        'medium': '40px',
+        'pre-medium': '32px',
+        'small': '24px',
+        'para': '16px',
+      },
+      fontWeight: {
+        'super-bold': '900'
+      },
       boxShadow: {
         'xs': '0px 4.282px 52.456px 0px rgba(0, 7, 72, 0.12)',
       },
