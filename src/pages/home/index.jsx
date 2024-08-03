@@ -16,7 +16,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="px-[16px]">
+            <div className="px-[16px]" id='feature'>
                 <img
                     src="/assets/section1.png"
                     alt=""
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
 
             {/* section 2 */}
-            <div className="py-[30px]">
+            <div className="py-[30px]" id="utility">
                 <div className="mb-[40px] flex flex-col items-center justify-center px-[16px] md:px-[130px]">
                     <div className="text-center text-[40px] font-[900] text-[#2A4C75] md:text-[64px]">
                         BECOME A
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
             {/* section 3 */}
-            <div>
+            <div id="roadmap">
                 <img
                     src="/assets/manydino_web.svg"
                     alt=""
@@ -416,7 +416,7 @@ export default function Home() {
             </div>
 
             {/* section 6 */}
-            <div className="py-[30px]">
+            <div className="py-[30px]" id="faq">
                 <div className="mb-[40px] flex flex-col items-center justify-center px-[16px] md:px-[130px]">
                     <div className="text-center text-[64px] font-bold text-[#2A4C75]">
                         CAMPAIGNS & PROGRAMS
