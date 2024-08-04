@@ -140,8 +140,7 @@ export default function Home() {
                                 Charity FIRST
                             </div>
                             <div className="pt-[10px] text-[16px]">
-                                By owning $DINO you are contributing to bringing
-                                dinosaurs back to the world through Web3.
+                                Global charity and conservation initiatives inspired by the majestic dinosaurs. $DINO aims to have a net-positive impact on the real world by supporting wildlife conservation and educational research.
                             </div>
                         </div>
                     </div>
@@ -243,7 +242,7 @@ export default function Home() {
                             <div className="flex">
                                 <img src="/assets/ice.png" alt="" />
                             </div>
-                            <div className="text-center text-[40px] font-[900] uppercase text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] uppercase text-[#2A4C75]">
                                 Freezing (Staking)
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
@@ -352,7 +351,7 @@ export default function Home() {
                             <div className="flex">
                                 <img src="/assets/ice2.png" alt="" />
                             </div>
-                            <div className="text-center text-[40px] font-[900] uppercase text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] uppercase text-[#2A4C75]">
                                 Vaporizing (Burning)
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
@@ -442,10 +441,10 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col items-start justify-center gap-[20px] md:flex-row">
                         <div className="flex flex-1 flex-col items-center justify-center gap-[16px]">
-                            <div className="text-[64px] font-bold text-bg-base">
+                            <div className="text-[60px] md:text-[64px] font-super-bold text-bg-base">
                                 01
                             </div>
-                            <div className="text-center text-[40px] font-[900] text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] text-[#2A4C75]">
                                 30% PRESALE + BONUS
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
@@ -454,10 +453,10 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex flex-1 flex-col items-center justify-center gap-[16px]">
-                            <div className="text-[64px] font-bold text-bg-base">
+                            <div className="text-[60px] md:text-[64px] font-super-bold text-bg-base">
                                 02
                             </div>
-                            <div className="text-center text-[40px] font-[900] text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] text-[#2A4C75]">
                                 10% TEAM
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
@@ -468,10 +467,10 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex flex-1 flex-col items-center justify-center gap-[16px]">
-                            <div className="text-[64px] font-bold text-bg-base">
+                            <div className="text-[60px] md:text-[64px] font-super-bold text-bg-base">
                                 03
                             </div>
-                            <div className="text-center text-[40px] font-[900] text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] text-[#2A4C75]">
                                 40% LIQUIDITY, CEX, MM
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
@@ -482,10 +481,10 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="flex flex-1 flex-col items-center justify-center gap-[16px]">
-                            <div className="text-[64px] font-bold text-bg-base">
+                            <div className="text-[60px] md:text-[64px] font-super-bold text-bg-base">
                                 04
                             </div>
-                            <div className="text-center text-[40px] font-[900] text-[#2A4C75]">
+                            <div className="text-center text-[32px] font-[900] text-[#2A4C75]">
                                 20% MARKETING
                             </div>
                             <div className="text-center text-[20px] text-[#2A4C75]">
