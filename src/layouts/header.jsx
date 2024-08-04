@@ -8,7 +8,7 @@ export default function Header() {
             className="h-[25px] bg-bg-base overflow-hidden"
         >
             <div className="flex items-center gap-[15px]">
-                <img src="/assets/dino_cursor.png" alt="hello" className="w-[23px] shrink-0"/>
+                <img src="/assets/ice2.png" alt="hello" className="w-[23px] shrink-0"/>
                 <div className="text-[10px] font-yourFont text-text-white font-[700] mr-3">DINO TOKEN</div>
             </div>
         </Marquee>);

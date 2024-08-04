@@ -15,7 +15,7 @@ export default function Layout({ children }) {
             <div className="fixed left-0 top-[43px] z-10 flex h-[50px] w-full flex-col items-center">
                 <div className="ml-auto mr-auto w-full max-w-[1674px] px-[14px]">
                     <div className="headerrr py-[13px] md:py-[22px] pl-[38px] pr-[22px]">
-                        <div className="flex items-center gap-[100px]">
+                        <div className="flex items-center md:gap-[100px]">
                             <a
                                 className="cursor-pointer text-[30px] font-[900] text-bg-base"
                                 href=""
@@ -44,7 +44,7 @@ export default function Layout({ children }) {
                             </div>
                         </div>
                         <div className="hidden cursor-pointer items-center justify-center rounded-[14px] border-2 border-[#000000] bg-bg-base px-[20px] py-[5px] md:flex">
-                            <div className="cursor-pointer text-[24px] font-bold text-text-white">
+                            <div className="cursor-pointer text-[24px] font-bold text-text-white break-keep text-nowrap">
                                 PRE-SALE
                             </div>
                         </div>

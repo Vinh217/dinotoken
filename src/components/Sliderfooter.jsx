@@ -2,6 +2,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useRef } from 'react';
+import LazyLoad from 'react-lazyload';
+
 function SliderFooter() {
     let sliderRef = useRef(null);
     const settings = {
@@ -57,13 +59,15 @@ function SliderFooter() {
             >
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img
-                            src="/assets/1.png"
-                            alt="1"
-                            className="h-[240px] md:h-[300px] rounded-[14px] border"
-                        />
+                        <LazyLoad height={200} once>
+                            <img
+                                src="/assets/1.png"
+                                alt="1"
+                                className="h-[240px] rounded-[14px] border md:h-[300px]"
+                            />
+                        </LazyLoad>
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
+                            <div className="flex flex-col items-start gap-[5px] text-[32px] font-[900] text-[#2A4C75] md:flex-row md:items-center">
                                 DINO{' '}
                                 <span className="text-[32px] font-[900] text-bg-base">
                                     TOURS
@@ -80,13 +84,15 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img
-                            src="/assets/2.png"
-                            alt="1"
-                            className="h-[240px] md:h-[300px] rounded-[14px] border"
-                        />
+                        <LazyLoad height={200} once>
+                            <img
+                                src="/assets/2.png"
+                                alt="1"
+                                className="h-[240px] rounded-[14px] border md:h-[300px]"
+                            />
+                        </LazyLoad>
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
+                            <div className="flex flex-col items-start gap-[5px] text-[32px] font-[900] text-[#2A4C75] md:flex-row md:items-center">
                                 DINO{' '}
                                 <span className="text-[32px] font-[900] text-bg-base">
                                     MUSEUMS
@@ -103,13 +109,15 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img
-                            src="/assets/3.png"
-                            alt="1"
-                            className="h-[240px] md:h-[300px] rounded-[14px] border"
-                        />
+                        <LazyLoad height={200} once>
+                            <img
+                                src="/assets/3.png"
+                                alt="1"
+                                className="h-[240px] rounded-[14px] border md:h-[300px]"
+                            />
+                        </LazyLoad>
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
+                            <div className="flex flex-col items-start gap-[5px] text-[32px] font-[900] text-[#2A4C75] md:flex-row md:items-center">
                                 DINO{' '}
                                 <span className="text-[32px] font-[900] uppercase text-bg-base">
                                     Stickers
@@ -126,13 +134,15 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img
-                            src="/assets/4.png"
-                            alt="1"
-                            className="h-[240px] md:h-[300px] rounded-[14px] border"
-                        />
+                        <LazyLoad height={200} once>
+                            <img
+                                src="/assets/4.png"
+                                alt="1"
+                                className="h-[240px] rounded-[14px] border md:h-[300px]"
+                            />
+                        </LazyLoad>
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
+                            <div className="flex flex-col items-start gap-[5px] text-[32px] font-[900] text-[#2A4C75] md:flex-row md:items-center">
                                 DINO{' '}
                                 <span className="text-[32px] font-[900] text-bg-base">
                                     MERCH
@@ -149,13 +159,15 @@ function SliderFooter() {
                 </div>
                 <div>
                     <div className="flex flex-col gap-[5px]">
-                        <img
-                            src="/assets/5.png"
-                            alt="1"
-                            className=" h-[240px] md:h-[300px] rounded-[14px] border"
-                        />
+                        <LazyLoad height={200} once>
+                            <img
+                                src="/assets/5.png"
+                                alt="1"
+                                className="h-[240px] rounded-[14px] border md:h-[300px]"
+                            />
+                        </LazyLoad>
                         <div className="min-h-[250px] rounded-[15px] border bg-[#F7F7F7] px-[16px] py-[16px]">
-                            <div className="text-[32px] font-[900] text-[#2A4C75] flex md:flex-row flex-col items-start md:items-center gap-[5px]">
+                            <div className="flex flex-col items-start gap-[5px] text-[32px] font-[900] text-[#2A4C75] md:flex-row md:items-center">
                                 DINO{' '}
                                 <span className="text-[32px] font-[900] text-bg-base">
                                     BOOKS
@@ -172,18 +184,22 @@ function SliderFooter() {
                 </div>
             </Slider>
             <div className="flex w-full justify-center gap-[150px] pt-[40px]">
-                <img
-                    src="/assets/arrow-left.webp"
-                    onClick={previous}
-                    alt=""
-                    className="w-[67px] cursor-pointer"
-                />
-                <img
-                    src="/assets/arrow-right.webp"
-                    onClick={next}
-                    alt=""
-                    className="w-[67px] cursor-pointer"
-                />
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/arrow-left.webp"
+                        onClick={previous}
+                        alt=""
+                        className="w-[67px] cursor-pointer"
+                    />
+                </LazyLoad>
+                <LazyLoad height={200} once>
+                    <img
+                        src="/assets/arrow-right.webp"
+                        onClick={next}
+                        alt=""
+                        className="w-[67px] cursor-pointer"
+                    />
+                </LazyLoad>
             </div>
         </div>
     );
